@@ -373,14 +373,49 @@
 }
 
 
-// end author
+// start tutorial
+
+.tutorial {
+    padding: 70px 0px 120px;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item {
+        max-width: 370px;
+        width: 100%;
+    }
+}
+
+.tutorial__item {
+    &-img {
+        min-height: 270px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    &-title {
+        font-size: 24px;
+        @include f700;
+        background-color: #fff;
+        text-align: center;
+        padding: 30px 10px;
+        color: $bg;
+    }
+}
+
+// end tutorial
+
+// start footer
 
 
 
 
 
-// advantages end
 
+
+
+// end footer
   
 
 
