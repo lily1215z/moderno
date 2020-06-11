@@ -150,12 +150,13 @@
                                         </ul>
                                     </div>
                                 </div>
-                                <a class="header__btn header__btn-login" href="#">Login</a>
+                                <a class="header__btn header__btn-login" data-fancybox data-src="#modal"
+                                    href="javascript:;">Login</a>
                                 <a class="header__btn header__btn-logout header__btn-login--off" href="#">Logout</a>
                                 <a class="header__btn header__btn-register" href="#">Register</a>
                             </div>
                             <div class="header__btn-menu icon-user">
-                                
+
                             </div>
                         </div>
                     </div>
@@ -1079,7 +1080,20 @@
         </footer>
 
     </div>
-
+    <div id="modal">
+        <div class="login__wrapper">
+            <div class="login__title">Login</div>
+            <form action="">
+                <label class="login__label-name" for="name"></label>
+                <input id="name" type="text" placeholder="Name" required>
+                <label class="login__label-pass" for="password"></label>
+                <input id="password" type="text" placeholder="Password" required>
+                <button type="submit">submit</button>
+                <a class="creat-acc" href="#">Creat An Account?</a>
+                <a class="lost-pass" href="#">Lost Password?</a>
+            </form>
+        </div>
+    </div>
 
 
 
